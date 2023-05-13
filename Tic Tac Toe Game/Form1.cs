@@ -104,9 +104,9 @@ namespace Tic_Tac_Toe_Game
         private void RestartGame()
         {
             buttons = new List<Button> {button1,button2,button3,button4,button5,button6,
-            button7,button9,button9};
+            button7,button8,button9};
 
-            foreach (Button  item in buttons)
+            foreach (Button item in buttons)
             {
                 item.Enabled = true;
                 item.Text = "?";
